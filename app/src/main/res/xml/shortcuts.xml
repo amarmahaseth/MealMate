@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shopping Tasks shortcut -->
+    <shortcut
+        android:shortcutId="shopping_tasks"
+        android:enabled="true"
+        android:icon="@drawable/shopping_task_icon"
+        android:shortcutShortLabel="@string/shopping_tasks_short_label"
+        android:shortcutLongLabel="@string/shopping_tasks_long_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.mealmate"
+            android:targetClass="com.example.mealmate.ShoppingTasksActivity" />
+    </shortcut>
+    
+    <!-- Recipe shortcut -->
+    <shortcut
+        android:shortcutId="recipes"
+        android:enabled="true"
+        android:icon="@drawable/recipe_icon"
+        android:shortcutShortLabel="@string/recipes_short_label"
+        android:shortcutLongLabel="@string/recipes_long_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.mealmate"
+            android:targetClass="com.example.mealmate.RecipeActivity" />
+    </shortcut>
+    
+    <!-- Grocery List shortcut -->
+    <shortcut
+        android:shortcutId="grocery_list"
+        android:enabled="true"
+        android:icon="@drawable/grocery_icon"
+        android:shortcutShortLabel="@string/grocery_short_label"
+        android:shortcutLongLabel="@string/grocery_long_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.mealmate"
+            android:targetClass="com.example.mealmate.GroceryListActivity" />
+    </shortcut>
+    
+    <!-- Meal Planner shortcut -->
+    <shortcut
+        android:shortcutId="meal_planner"
+        android:enabled="true"
+        android:icon="@drawable/meal_icon"
+        android:shortcutShortLabel="@string/meal_short_label"
+        android:shortcutLongLabel="@string/meal_long_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.mealmate"
+            android:targetClass="com.example.mealmate.MealPlannerActivity" />
+    </shortcut>
+    
+    <!-- Geotag Stores shortcut -->
+    <shortcut
+        android:shortcutId="geotag_stores"
+        android:enabled="true"
+        android:icon="@drawable/getog_stores_icon"
+        android:shortcutShortLabel="@string/geotag_short_label"
+        android:shortcutLongLabel="@string/geotag_long_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.mealmate"
+            android:targetClass="com.example.mealmate.GeotagStoresActivity" />
+    </shortcut>
+</shortcuts> 

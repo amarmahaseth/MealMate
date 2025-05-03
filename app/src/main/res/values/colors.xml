@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Fresh Green -->
+    <color name="primary">#00C853</color>
+    <color name="primary_dark">#009624</color>
+    <color name="primary_light">#5EFF82</color>
+    
+    <!-- Accent Colors - Vibrant Orange -->
+    <color name="accent">#FF6D00</color>
+    <color name="accent_dark">#C43E00</color>
+    <color name="accent_light">#FF9E40</color>
+    
+    <!-- Background Colors - Clean and Modern -->
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#F5F5F5</color>
+    
+    <!-- Text Colors - High Contrast -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    
+    <!-- Status Colors - Bold and Clear -->
+    <color name="error">#FF1744</color>
+    <color name="success">#00C853</color>
+    <color name="warning">#FFD600</color>
+    
+    <!-- System Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Additional UI Colors -->
+    <color name="divider">#E0E0E0</color>
+    <color name="ripple">#1A000000</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="button_text">#FFFFFF</color>
+
+    <!-- Splash Screen Specific Colors -->
+    <color name="splash_gradient_start">#00C853</color>
+    <color name="splash_gradient_middle">#00E676</color>
+    <color name="splash_gradient_end">#009624</color>
+
+    <color name="shimmer_color">#DDDDDD</color>
+
+    <!-- Shopping Task Status Colors -->
+    <color name="status_pending">#FFA500</color>      <!-- Orange -->
+    <color name="status_in_progress">#2196F3</color>  <!-- Blue -->
+    <color name="status_completed">#4CAF50</color>    <!-- Green -->
+    <color name="status_delegated">#9C27B0</color>    <!-- Purple -->
+    <color name="status_overdue">#F44336</color>      <!-- Red -->
+    <color name="status_background">#4CAF50</color>
+
+    <color name="colorPrimary">#FF6200EE</color>
+    <color name="colorPrimaryDark">#FF3700B3</color>
+    <color name="colorAccent">#FF03DAC5</color>
+
+    <!-- Status colors -->
+    <color name="chip_pending_background">@color/chip_state_selector_pending</color>
+    <color name="chip_pending_stroke">#FFA000</color>
+    
+    <color name="chip_in_progress_background">@color/chip_state_selector_in_progress</color>
+    <color name="chip_in_progress_stroke">#1976D2</color>
+    
+    <color name="chip_completed_background">@color/chip_state_selector_completed</color>
+    <color name="chip_completed_stroke">#388E3C</color>
+    
+    <color name="chip_delegated_background">@color/chip_state_selector_delegated</color>
+    <color name="chip_delegated_stroke">#7B1FA2</color>
+</resources>

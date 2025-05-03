@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MealMate</string>
+    <string name="recaptcha_site_key">YOUR_RECAPTCHA_SITE_KEY</string>
+    <string name="recaptcha_web_client_id">AIzaSyDgF9vxmqJAkIkuKZx_cXdY0ltRp-DIBjw</string>
+    <string name="google_maps_api_key">AIzaSyAOVYRIgupAurZup5y1PRh8Ismb1A3lLao</string>
+    
+    <!-- Empty State -->
+    <string name="empty_recipes_image">Empty recipes illustration</string>
+    <string name="empty_recipes_message">You don\'t have any recipes yet. Add your favorite meals!</string>
+    <string name="add_first_recipe">Add First Recipe</string>
+    <string name="add_recipe">Add new recipe</string>
+    
+    <!-- Other strings -->
+    <string name="title_activity_recipe">My Recipes</string>
+    <string name="title_activity_add_recipe">Add Recipe</string>
+    <string name="title_activity_recipe_detail">Recipe Details</string>
+    <string name="meal_image">Meal Image</string>
+    <string name="meal_options">Meal Options</string>
+    
+    <!-- App Shortcuts -->
+    <string name="shopping_tasks_short_label">Tasks</string>
+    <string name="shopping_tasks_long_label">Shopping Tasks</string>
+    <string name="recipes_short_label">Recipes</string>
+    <string name="recipes_long_label">My Recipes</string>
+    <string name="grocery_short_label">Grocery</string>
+    <string name="grocery_long_label">Grocery List</string>
+    <string name="meal_short_label">Meals</string>
+    <string name="meal_long_label">Meal Planner</string>
+    <string name="geotag_short_label">Stores</string>
+    <string name="geotag_long_label">Geotag Stores</string>
+</resources>

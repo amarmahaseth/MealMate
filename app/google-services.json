@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "703741395894",
+    "project_id": "meal-mate-8a203",
+    "storage_bucket": "meal-mate-8a203.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703741395894:android:a14b0aa08dc739a2dff717",
+        "android_client_info": {
+          "package_name": "com.example.mealmate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-u6HPdi4PTkf94RhdJJLC6R2ESsaReMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

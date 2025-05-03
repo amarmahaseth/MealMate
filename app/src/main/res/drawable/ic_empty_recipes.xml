@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M100,100m-80,0a80,80 0,1 1,160 0a80,80 0,1 1,-160 0"/>
+    
+    <!-- Plate -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M100,60C81.2,60 66,75.2 66,94s15.2,34 34,34s34,-15.2 34,-34S118.8,60 100,60zM100,122c-15.5,0 -28,-12.5 -28,-28s12.5,-28 28,-28s28,12.5 28,28S115.5,122 100,122z"/>
+    
+    <!-- Fork -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M94,78v32c0,1.1 -0.9,2 -2,2s-2,-0.9 -2,-2V78c0,-1.1 0.9,-2 2,-2S94,76.9 94,78z"/>
+    
+    <!-- Knife -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M110,78v32c0,1.1 -0.9,2 -2,2s-2,-0.9 -2,-2V78c0,-1.1 0.9,-2 2,-2S110,76.9 110,78z"/>
+    
+    <!-- Plus Sign -->
+    <path
+        android:fillColor="@color/accent"
+        android:pathData="M150,140h-20v-20h-8v20h-20v8h20v20h8v-20h20z"/>
+</vector> 

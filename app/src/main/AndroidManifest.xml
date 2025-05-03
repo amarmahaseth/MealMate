@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Storage Permissions -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <!-- Location Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Add permissions -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".MealMateApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MealMate.Light"
+        android:enableOnBackInvokedCallback="true"
+        tools:targetApi="31">
+        
+        <!-- Google Maps API Key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_api_key" />
+
+        <activity
+            android:name=".GeotagStoresActivity"
+            android:exported="false"
+            android:label="Geotag Stores"
+            android:theme="@style/Theme.MealMate.Light.NoActionBar"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MealMate.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MealMate.Light.NoActionBar" />
+
+        <activity
+            android:name=".EmailVerificationActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MealMate.Light.NoActionBar" />
+
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MealMate.Light.NoActionBar" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MealMate.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+            <!-- Add shortcuts -->
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+
+        <activity
+            android:name=".RecipeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MealMate.Light.NoActionBar" />
+
+        <activity
+            android:name=".AddRecipeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MealMate.Light.NoActionBar" />
+
+        <activity
+            android:name=".RecipeDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MealMate.Light.NoActionBar" />
+
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:label="Profile"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="Settings"
+            android:theme="@style/Theme.MealMate.Light.NoActionBar"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".GroceryListActivity"
+            android:exported="false"
+            android:label="Grocery List"
+            android:theme="@style/Theme.MealMate.Light.NoActionBar"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".MealPlannerActivity"
+            android:exported="false"
+            android:label="Meal Planner"
+            android:theme="@style/Theme.MealMate.Light.NoActionBar"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity
+            android:name=".RecipeListActivity"
+            android:label="Select Recipe"
+            android:parentActivityName=".MealPlannerActivity" />
+
+        <activity
+            android:name=".RecipeEditActivity"
+            android:label="Edit Recipe"
+            android:theme="@style/Theme.MealMate.Light.NoActionBar"
+            android:parentActivityName=".RecipeListActivity" />
+
+        <!-- Shopping Tasks Activities -->
+        <activity
+            android:name=".ShoppingTasksActivity"
+            android:exported="false"
+            android:label="Shopping Tasks"
+            android:theme="@style/Theme.MealMate.Light.NoActionBar"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".TaskDetailActivity"
+            android:exported="false"
+            android:label="Task Details"
+            android:theme="@style/Theme.MealMate.Light.NoActionBar"
+            android:parentActivityName=".ShoppingTasksActivity" />
+
+        <activity 
+            android:name=".GrocerySelectionActivity"
+            android:exported="false"
+            android:label="Select Grocery Items"
+            android:theme="@style/Theme.MealMate.Light.NoActionBar"
+            android:parentActivityName=".TaskDetailActivity" />
+
+        <!-- Firebase Auth Configuration -->
+        <meta-data
+            android:name="com.google.firebase.auth.api.web.client.id"
+            android:value="@string/recaptcha_web_client_id" />
+    </application>
+
+</manifest>
